@@ -11,7 +11,7 @@ api.authenticate()
 dataset = 'alessiocorrado99/animals10'
 
 # Download the dataset
-output_path ='csv/'  # Local folder to save the dataset
+output_path ='\csv'  # Local folder to save the dataset
 os.makedirs(output_path, exist_ok=True)
 
 # Download and unzip the dataset
